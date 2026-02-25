@@ -1,0 +1,12 @@
+100 = Encoder Mode:  0 Button, 1 Achse, 2 Beides
+101 = Farbe
+102 = Cycle Mode: 0 Aus (immer an), 1 Roataion (helle Led, rest dunkler), 2 Encoder (je nach Encoder Achse)
+
+
+- Farben
+- Cycle Mode: Aus (immer an), Roataion (helle Led, rest dunkler), Encoder (je nach Encoder Achse)
+- Encoder Mode: Button, Achse, Beides
+
+
+
+EEPROM.update(50, t); (Adresse, Wert 0-255)
